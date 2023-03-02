@@ -145,7 +145,7 @@ async function binarySearch(item, array) {
 
    while(i <= j) {
       resetBarsColor()
-      const middle = Math.round((i + j) / 2)
+      const middle = Math.floor((i + j) / 2)
 
       bars[i].style.backgroundColor = limitsColor
       bars[j].style.backgroundColor = limitsColor
