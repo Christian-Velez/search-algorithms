@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Search Algorithms</title>
+
+   <link rel="stylesheet" href="index.css">
+   <link rel="stylesheet" href="bars.css">
+   <script src="helpers.js" defer></script>
+   <script src="index.js" defer></script>
+</head>
+
+<body>
+   <div class="container">
+
+      <div class="bars-container" id="bars-container">
+      </div>
+      
+      <p id="result">&nbsp;</p>
+
+      <div class="buttons-container">
+         <select id="method">
+            <option value="linear">Linear Search</option>
+            <option value="binary">Binary Search</option>
+         </select>
+         <input id="number-input" placeholder="Number to be searched" type="number" />
+         <input id="sleep-input" placeholder="Sleep time (ms)" type="number" />
+
+         <button id="randomize-array">Randomize array</button>
+         <button id="search-btn">Search item</button>
+      </div>
+   </div>
+</body>
+
+
+</html>
